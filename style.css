@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#todo_input{
+    margin: 1rem;
+}
+
+.todo-in{
+    width: 300px;
+    height: 30px;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.create_task{
+    width: 150px;
+    height: 30px;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+}
+
+.show_todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+    margin-left: 2px;
+}
+
+.list{
+    margin-top: 2px;
+}
